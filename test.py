@@ -95,6 +95,7 @@ def main():
     untrans = process(untrans_html)
     backup(untrans)
     print('Successfully copied contents')
+    print('実行されました')
 
 if __name__ == "__main__":
     main()
